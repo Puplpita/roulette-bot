@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Bot WebApp</title>
+</head>
+<body>
+    <h1>Welcome to My Telegram WebApp</h1>
+    <p>This is your WebApp that will connect to your Telegram bot.</p>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script>
+        Telegram.WebApp.init();
+        console.log(Telegram.WebApp);
+    </script>
+</body>
+</html>
